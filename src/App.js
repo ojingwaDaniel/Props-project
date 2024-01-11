@@ -1,25 +1,22 @@
-import logo from './logo.svg';
 import './App.css';
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+  // const date = new Date()
+  // const hour = date.getHours
+  // console.log(hour)
+  // let timeOfDay
+  // if (hour < 12) {
+  //   timeOfDay = 'morning'
+  // } else if (hour >= 12 && hour < 17) {
+  //   timeOfDay = 'Afternoon'
+  // }else {
+  //   timeOfDay = 'Night'
+  // }
+  // return (
+  //   <div className="App">
+  //     <h1>Good {timeOfDay}</h1>
+  //   </div>
+  // );
 }
 
 export default App;
