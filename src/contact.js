@@ -1,18 +1,17 @@
-import contactImage  from './images/contact-1.jpg'
 import phoneIcon from './images/phone-icon.png'
 import emailIcon from './images/email-icon.png'
-export default function Contact() {
+export default function Contact({img,name,number,email}) {
     return (
       <div className="contact-card">
-        <img src={contactImage} />
-        <h3>Mr Broda Shaggi</h3>
-        <div>
-                <img src={phoneIcon} />
-                <p>08101338296</p>
+        <img src={img} className='contact-image' />
+            <h3>{name}</h3>
+        <div className='phone-details'>
+                <img src={phoneIcon}  className='phone-icon'/>
+                <p>{number }</p>
         </div>
-        <div>
-                <img src={emailIcon} />
-                <p>brodashaggi@gmail.com</p>
+        <div className='email-details'>
+                <img src={emailIcon}  className='email-icon'/>
+                <p>{email}</p>
         </div>
       </div>
     );
